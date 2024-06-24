@@ -10,7 +10,7 @@
 
 ## Contact
 
-For any inquiries, please contact us at [rajndran@marketcalls.in](mailto:rajandran@marketcalls.in).
+For any inquiries, please contact us at [rajandran@marketcalls.in](mailto:rajandran@marketcalls.in).
 
 ---
 
