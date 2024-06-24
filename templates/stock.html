@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenDash - Stock</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+    <header class="bg-blue-600 text-white p-4 shadow-md flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold">OpenDash</h1>
+            <p class="text-lg">Your Gateway to the Stock Market</p>
+        </div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="/" class="hover:underline">Home</a></li>
+                <li><a href="/stock" class="hover:underline">Stock</a></li>
+                <li><a href="/screener" class="hover:underline">Screener</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center">
+        <div class="text-center">
+            <h2 class="text-5xl font-bold mb-2">OpenDash</h2>
+            <p class="text-xl mb-8">Stock analysis and screening tool for investors</p>
+            <div class="relative mx-auto w-full max-w-md">
+                <input type="text" class="w-full p-4 pl-12 pr-4 border rounded-full text-lg" placeholder="Search for a company">
+                <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17.85 10.8a7.05 7.05 0 11-14.1 0 7.05 7.05 0 0114.1 0z" />
+                </svg>
+            </div>
+            <div class="mt-8">
+                <p class="mb-4">Or analyse:</p>
+                <div class="flex flex-wrap justify-center space-x-2">
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Sandur Manganese</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Shilchar Tech</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Kovai Medical</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">NGL Fine Chem</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Permanent Magnet</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Pix Transmission</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">RACL Geartech</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Rossell India</span>
+                    <span class="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full mb-2">Shivalik Bimetal</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4 mt-8 shadow-md text-center">
+        <p>&copy; 2024 OpenDash. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenDash - A Stock Market Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+    <header class="bg-blue-600 text-white p-4 shadow-md flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold">OpenDash</h1>
+            <p class="text-lg">Your Gateway to the Stock Market</p>
+        </div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="/" class="hover:underline">Home</a></li>
+                <li><a href="/stock" class="hover:underline">Stock</a></li>
+                <li><a href="/screener" class="hover:underline">Screener</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-8 flex-grow">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to OpenDash</h2>
+            <p class="text-lg">OpenDash is a comprehensive stock market application designed to help you track and analyze stock market data effortlessly. Whether you are a seasoned trader or just getting started, OpenDash provides the tools you need to succeed.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Features</h2>
+            <ul class="list-disc list-inside">
+                <li>Real-time stock quotes and charts</li>
+                <li>Customizable watchlists</li>
+                <li>Technical analysis tools</li>
+                <li>Latest market news and updates</li>
+                <li>Portfolio management</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">Get Started</h2>
+            <p class="text-lg">To start using OpenDash, navigate to the <a href="/stock" class="text-blue-600 hover:underline">Stock Page</a> and explore the latest stock data and market trends.</p>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4 mt-8 shadow-md text-center">
+        <p>&copy; 2024 OpenDash. All rights reserved.</p>
+    </footer>
+</body>
+</html>
